@@ -11,8 +11,8 @@ from typing import List, Dict, Any, Optional
 
 import mysql.connector
 from langchain_ollama import ChatOllama
-from langchain.prompts import PromptTemplate
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_classic.prompts import PromptTemplate
+from langchain_core.messages import HumanMessage, SystemMessage
 
 from core.config import settings
 from core.logging import get_logger

@@ -27,7 +27,8 @@ class Settings(BaseSettings):
     ingest_base_dir: str = "./data"
 
     # App
-    app_host: str = "0.0.0.0"
+    # app_host: str = "0.0.0.0"
+    app_host: str = "127.0.0.1"
     app_port: int = 8000
     debug: bool = True
     cors_origins: List[str] = Field(default=["http://localhost:5173"])

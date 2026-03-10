@@ -2,7 +2,7 @@
 utils/chunker.py — Split parsed text into overlapping chunks for embedding.
 """
 from typing import List, Dict, Any
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_classic.text_splitter import RecursiveCharacterTextSplitter
 
 
 CHUNK_SIZE = 1000

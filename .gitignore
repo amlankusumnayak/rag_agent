@@ -1,0 +1,35 @@
+# OS / junk
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Build output (adjust to your tech)
+dist/
+build/
+out/
+
+# Node (if applicable)
+node_modules/
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+
+# ChromaDB
+chroma/
+**/chroma.sqlite3
+**/*.sqlite3
+**/*.sqlite3-wal
+**/*.sqlite3-shm
+
+

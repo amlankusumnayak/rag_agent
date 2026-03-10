@@ -1,0 +1,21 @@
+[project]
+name = "rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi==0.115.0",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.2",
+    "langchain-core>=1.2.18",
+    "langchain-ollama>=1.0.1",
+    "langgraph>=1.0.10",
+    "mysql>=0.0.3",
+    "mysql-connector-python>=9.6.0",
+    "pydantic-settings>=2.13.1",
+    "python-dotenv==1.0.1",
+    "python-multipart==0.0.9",
+    "uvicorn[standard]==0.30.6",
+]

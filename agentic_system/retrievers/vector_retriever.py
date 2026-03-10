@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../../backend"))
 from typing import List, Dict, Any
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 from core.config import settings
 from core.logging import get_logger
